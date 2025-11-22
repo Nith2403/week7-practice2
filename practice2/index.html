@@ -11,57 +11,52 @@
     <div class="container">
         <h1>Create Account</h1>
         <form action="">
-            <div class="name">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name = "fname" placeholder="Enter your first name" required> <br>
+        <div class="name">
+            <div class="fname">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name = "fname" placeholder="Enter your first name" required> <br>
+            </div>
+            <div class="lname">
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Enter your last name"><br>
+            </div>
+        </div> 
 
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" placeholder="Enter your last name"><br>
-    </div> 
+        <div class="email">
+            <label for="email">Email*</label>
+            <input type="text" id="email" name="email" placeholder="enter your email" required>
+        </div>  
 
-    <div class="email">
-        <label for="email">Email*</label><br>
-        <input type="text" id="email" name="email" placeholder="enter your email" required><br>
-    </div>  
-
+<div class="password">
     <div class="pass">
         <label for="pass">Password*</label><br>
         <input type="text" id="pass" name="pass" placeholder="enter your Password" required><br>
-
     </div>
-    
+
     <div class="comf">
-         <label for="comf">Confirm Password*</label><br>
+        <label for="comf">Confirm Password*</label><br>
         <input type="text" id="comf" name="comf" placeholder="enter your Password again" required><br>
-
     </div>
-    
+
     <div class="gender">
-        <label >Gender:</label>
-            <br>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
 
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
     </div>
+
     <div class="hobbie">
-            <label >Hobbies</label>
-            <br>
-            <input type="checkbox" id="Music" name="Hobbies" >
-            <label for="Music">Music</label>
-            
-            <input type="checkbox" id="Sports" name="Hobbies" >
-            <label for="Sports">Sport</label>
-                        
-            <input type="checkbox" id="Travel" name="Hobbies" >
-            <label for="Travel">Travel</label>
-                        
-            <input type="checkbox" id="Movies" name="Hobbies" >
-            <label for="Movies">Movies</label>
-            <br><br>
-    </div>  
+        <label>Hobbies</label><br>
+        <input type="checkbox" id="Music"> <label for="Music">Music</label>
+        <input type="checkbox" id="Sports"> <label for="Sports">Sports</label>
+        <input type="checkbox" id="Travel"> <label for="Travel">Travel</label>
+        <input type="checkbox" id="Movies"> <label for="Movies">Movies</label>
+    </div>
+</div>
+
+    
     
     <div class="source">
             <label for="income-source">Source of income</label><br>
@@ -89,14 +84,9 @@
         <label for="bio">Bio</label><br>
         <input type="text" id="bio" name="bio"><br>
     </div>
-
     <button>create</button>
-
-
-
-
- 
         </form>
+    
     </div>
  
 </body>
